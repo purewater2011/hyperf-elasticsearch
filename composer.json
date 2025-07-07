@@ -20,12 +20,12 @@
     ],
     "require": {
         "php": ">=7.2",
-        "hyperf/elasticsearch": "~2.2.0",
-        "hyperf/paginator": "2.2.0",
-        "hyperf/database": "2.2.0",
+        "hyperf/elasticsearch": "^2.2",
+        "hyperf/paginator": "^2.2",
+        "hyperf/database": "^2.2",
         "symfony/console": "^5.4",
-        "hyperf/command": "2.2.0",
-        "hyperf/devtool": "2.2.0"
+        "hyperf/command": "^2.2",
+        "hyperf/devtool": "^2.2"
     },
     "autoload": {
         "psr-4": {
