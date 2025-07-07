@@ -1,0 +1,18 @@
+<?php
+
+namespace %NAMESPACE%;
+
+use PurewaterEs\ScoutElastic\IndexConfigurator;
+use PurewaterEs\ScoutElastic\Traits\Migratable;
+
+class %CLASS% extends IndexConfigurator
+{
+    use Migratable;
+
+    /**
+     * @var array
+     */
+    protected $settings = [
+        //
+    ];
+}
